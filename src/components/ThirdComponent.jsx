@@ -7,6 +7,7 @@ export const ThirdComponent = (props) => {
         <ul>
             <li>{ props.name } </li>
             <li>{ props.last_name } </li>
+            <li>{ props.age } </li>
         </ul>
       
     </div>
@@ -15,7 +16,8 @@ export const ThirdComponent = (props) => {
 
 ThirdComponent.propTypes = {
     name: PropTypes.string,
-    last_name: PropTypes.string
+    last_name: PropTypes.string,
+    age:PropTypes.string
 }
 
 
